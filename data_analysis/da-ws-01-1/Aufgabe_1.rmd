@@ -1,15 +1,15 @@
 ---
-title: "26_10_Aufgabe_1"
+title: "Aufgabe_1"
 author: "Cora Wüstenhagen"
-date: "26 Oktober 2017"
+date: "29 Oktober 2017"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
 
 ```{r}
+
 # Mit Variablen rechnen
 
 a<-2

@@ -248,26 +248,6 @@ Ergebnis6</code></pre>
 ## 
 ## [[7]]
 ## [1] &quot;Larger&quot;</code></pre>
-<pre class="r"><code>#oder
-
-HappyPferd &lt;- list()
-
-for (pferdekuchen in n){
-  if (pferdekuchen&gt;1) {
-    a &lt;- &quot;Larger&quot;
-    HappyPferd &lt;- c(HappyPferd,a)
-  } else if (pferdekuchen==1){
-    a &lt;- &quot;Equal&quot;
-    HappyPferd &lt;- c(HappyPferd,a)
-  } else if (pferdekuchen&lt;1){
-    a &lt;- &quot;Smaller&quot;
-    HappyPferd &lt;- c(HappyPferd,a)
-  } 
-}
-
-HappyPferd</code></pre>
-<pre><code>## [[1]]
-## [1] &quot;Larger&quot;</code></pre>
 <pre class="r"><code># 7. Change the above modified loop in such a way, that the iteration is controlled 
 # by a lapply not a for loop. Save the returning information from the lapply function in
 # a variable and print the content of this variable after the loop.

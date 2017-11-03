@@ -108,25 +108,6 @@ for (n in seq(-1, 5)){
 
 Ergebnis6
 
-#oder
-
-HappyPferd <- list()
-
-for (pferdekuchen in n){
-  if (pferdekuchen>1) {
-    a <- "Larger"
-    HappyPferd <- c(HappyPferd,a)
-  } else if (pferdekuchen==1){
-    a <- "Equal"
-    HappyPferd <- c(HappyPferd,a)
-  } else if (pferdekuchen<1){
-    a <- "Smaller"
-    HappyPferd <- c(HappyPferd,a)
-  } 
-}
-
-HappyPferd
-
 # 7. Change the above modified loop in such a way, that the iteration is controlled 
 # by a lapply not a for loop. Save the returning information from the lapply function in
 # a variable and print the content of this variable after the loop.
